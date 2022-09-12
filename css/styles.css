@@ -178,9 +178,9 @@ body.active{
     left:0;
     right:0;
     margin:0 auto;
-    background:#34dbdb}
+    background:#050505}
     
-.background-alt{background:#bcecf5}
+.background-alt{background:#c7f1ed}
 #lead{
     position:relative;
     height:100vh;
@@ -255,14 +255,18 @@ body.active{
 #about{
     padding:75px 15px;
     border-bottom:1px solid #dcd9d9}    
-#about h2{color:#374054}
+#about h2{color:#03584a;
+    font-weight: bolder;    
+}
 #about p{color:#74808a;margin:0}
 
 #experience{
     padding:50px 15px;
     text-align:center;
     border-bottom:1px solid #dcd9d9}
-#experience h2{color:#000000}
+#experience h2{color:#000000;
+    font-weight: bolder;    
+}
 #experience-timeline{
     margin:30px auto 0 auto;
     position:relative;
@@ -276,7 +280,7 @@ body.active{
     right:auto;
     height:100%;
     width:3px;
-    background:#34d0db;
+    background:#008f9a;
     z-index:0}
 #experience-timeline:after{
     position:absolute;
@@ -295,23 +299,23 @@ body.active{
         text-align:left}
     .vtimeline-content h3{
         font-size:1.5em;
-        font-weight:300;
+        font-weight:500;
         color:#374054;
         display:inline-block;
         margin:0}
     .vtimeline-content h4{
         font-size:1.2em;
-        font-weight:300;
+        font-weight:400;
         color:#7e8890;
         margin:0 0 15px 0}
     .vtimeline-content p{
-        color:#74808a;
+        color:#00325a;
         font-size:0.9em;
-        margin:0}
+        margin:0;
+        font-weight: 500;}
     .vtimeline-point{
         position:relative;
         display:block;
-        vertical-align:top;
         margin-bottom:30px}
     .vtimeline-icon{
         position:relative;
@@ -333,14 +337,18 @@ body.active{
         position:absolute;
         left:0;
         top:10px;
-        font-weight:300;
+        font-weight:500;
         color:#374054}
 
 #education{
     padding:50px 15px 20px 15px;
     border-bottom:1px solid #dcd9d9;
     text-align:center}
-#education h2{color:#000000;margin-bottom:50px}
+#education h2{
+    color:#000000;
+    margin-bottom:50px;
+    font-weight: bolder;    
+}
     .education-block{
         max-width:700px;
         margin:0 auto 30px auto;
@@ -370,29 +378,34 @@ body.active{
     border-bottom:1px solid #000000;
     text-align:center}
 #projects h2{
-    color:#ffffff;
-    margin-bottom:50px}
+    color:#00392a;
+    margin-bottom:50px;
+    font-weight: bolder;    
+}
     .project{
         position:relative;
         max-width:900px;
         margin:0 auto 30px auto;
         overflow:hidden;
         background:#fff;
-        border-radius:4px}
-    .project-image{float:left}
+        border-radius:4px;
+        }
+    .project-image{
+        float: left;
+                    }
     .project-info{
         position:absolute;
         top:50%;
         transform:translateY(-50%);
-        margin-left:300px;
-        padding:15px}
+        margin-left:420px;
+        padding:30px}
     .project-info h2{
         font-size:1.5em;
         font-weight:300;
-        color:#ffffff;
+        color:#000000;
         margin:0 0 15px 0}
     .project-info p{
-        color:#ffffff;
+        color:#0c0c0c;
         margin:0 0 15px 0;
         font-size:0.9em}
     .no-image 
@@ -401,6 +414,9 @@ body.active{
         margin:0;
         padding:30px 15px;
         transform:none}
+    .a{
+        color: #ffffff;
+    }
 #more-projects{display:none}
 
 #skills{
@@ -408,7 +424,9 @@ body.active{
     text-align:center}
 #skills h2{
     color:#000000;
-    margin-bottom:50px}
+    margin-bottom:50px;
+    font-weight: bolder;    
+}
 #skills ul{
     display:block;
     margin:0 auto;
@@ -418,8 +436,8 @@ body.active{
     display:inline-block;
     margin:7px;
     padding:5px 10px;
-    color:#000000;
-    background:#b8f8f8;
+    color:#abf4f2;
+    background:#016666;
     list-style:none;
     cursor:default;
     font-size:1.2em}
@@ -427,7 +445,7 @@ body.active{
 
 #contact{
     padding:50px 15px;
-    background:#a1e2eb;
+    background-image:url(../images/lead-bg.jpg) ;
     text-align:center}
 #contact h2{
     margin:0 0 15px 0;
@@ -503,3 +521,6 @@ body.active{
         background-size:cover;
         padding: 50px 0;
         overflow:hidden}
+#footer p{
+    color: honeydew;
+}
