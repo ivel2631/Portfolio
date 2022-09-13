@@ -1,4 +1,8 @@
-
+/* Title: Dev Portfolio Template
+    Version: 1.0.0
+    Last Change: 24/04/2021
+    Author: Thanish Malai P */
+    
 
 (function($) {
 
